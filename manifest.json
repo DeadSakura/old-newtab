@@ -7,6 +7,6 @@
     "chrome_url_overrides": {
     "newtab": "newtab.html"
     },
-    "permissions": ["tabs", "storage", "topSites", "management"]
+    "permissions": ["tabs", "storage", "topSites", "management", "chrome://favicon/*"]
 
 }

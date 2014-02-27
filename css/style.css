@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+#menu {
+    background: rgba(255,255,255,0);
+    border: none;
+}
+
+#appContainer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 1032px;
+    height: 688px;
+    vertical-align: center;
+}
+
+.launcher {
+    margin: 3px 3px 3px 0;
+    padding: 1px;
+    float: left;
+    width: 172px;
+    height: 172px;
+    font-size: small;
+    text-align: center; 
+}
+
+.ui-button-text {
+    font-size: medium;
+}

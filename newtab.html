@@ -1,19 +1,23 @@
 <head>
     <title>Welcome to Old New Tab</title>
     <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.10.4.custom.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <script type="text/javascript" src="lib/jquery-1.10.2.js"></script>
     <script type="text/javascript" src="lib/jquery-ui-1.10.4.custom.min.js"></script>
+    <script type="text/javascript" src="scripts/util.js"></script>
     <script type="text/javascript" src="scripts/main.js"></script>
         
     </script>
 </head>
 <body>
-    <div id="tabs" style="height: 98%;">
+    <div id="tabs">
         <ul>
             <li><a href="#mostVisited">Most Visited</a></li>
             <li><a href="#installedApps">Installed Apps</a></li>
         </ul>
         <div id="mostVisited"></div>
-        <div id="installedApps"></div>
+        <div id="installedApps">
+            <ul id="appContainer"></ul>
+        </div>
     </div>
 </body>
